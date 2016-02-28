@@ -1,11 +1,4 @@
-
-<div class="parallax-window" data-parallax="scroll" data-image-src="http://localhost:8000/assets/images/remoteasianvillage.jpg"></div>
-
-    <!--
-    <div class="bg">
-    </div>
-    -->
-    <!--
+    
     <header class="jumbotron">  
         <div class="container">
             <div class="row row-header">
@@ -25,7 +18,6 @@
             </div>
         </div>
     </header>
-    -->
   
     <div class="container">
       <div class="row row-content">
@@ -60,7 +52,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -78,7 +70,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -96,7 +88,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -117,7 +109,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -135,7 +127,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -153,7 +145,7 @@
               <div align=center>
                  <div class="row row-content">
                      <div class="col-xs-12">
-                         <a href="#"><img src="../Feather/assets/images/ActivityImage.png" height=220px width=350px/></a>
+                         <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
                          <h3>Go on a food tour through the Lower East Side</h3>
@@ -178,12 +170,12 @@
       <div class="row row-content">
           <div class="col-xs-12 col-sm-6">
               <div align=center>
-                  <a href="#"><img src="../Feather/assets/images/NewYorkCityImage.png" height=350px width=550px/></a>
+                  <a href="#"><img src="../assets/images/NewYorkCityImage.png" height=350px width=550px/></a>
               </div>
           </div>
           <div class="col-xs-12 col-sm-6">
               <div align=center>
-                  <a href="#"><img src="../Feather/assets/images/LondonImage.png" height=350px width=550px/></a>
+                  <a href="#"><img src="../assets/images/LondonImage.png" height=350px width=550px/></a>
               </div>
           </div>
       </div>
@@ -191,17 +183,17 @@
       <div class="row row-content">
           <div class="col-xs-12 col-sm-4">
               <div align=center>
-                  <a href="#"><img src="../Feather/assets/images/SanFranciscoImage.png" height=220px width=350px/></a>
+                  <a href="#"><img src="../assets/images/SanFranciscoImage.png" height=220px width=350px/></a>
               </div>
           </div>
           <div class="col-xs-12 col-sm-4">
               <div align=center>
-                  <a href="#"><img src="../Feather/assets/images/MiamiImage.png" height=220px width=350px/></a>
+                  <a href="#"><img src="../assets/images/MiamiImage.png" height=220px width=350px/></a>
               </div>
           </div>
           <div class="col-xs-12 col-sm-4">
               <div align=center>
-                  <a href="#"><img src="../Feather/assets/images/ParisImage.png" height=220px width=350px/></a>
+                  <a href="#"><img src="../assets/images/ParisImage.png" height=220px width=350px/></a>
               </div>
           </div>
       </div>

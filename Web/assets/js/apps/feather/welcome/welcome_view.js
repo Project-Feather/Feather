@@ -21,9 +21,10 @@ define(["app",
 					"click @ui.checkOut": "CheckOutOnClick"
 				  },
                     
-                  onRender: function(){      
-                    $('.parallax-window').parallax({imageSrc: 'http://localhost:8000/assets/images/remoteasianvillage.jpg'});
+                  onRender: function() {
+                      console.log("Welcome_View was rendered!");
                   }
+                
 
 				});
 			});

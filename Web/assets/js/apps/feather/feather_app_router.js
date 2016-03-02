@@ -17,7 +17,7 @@ define(["app"], function(FeatherManager){
       console.log("In executeAction just before calling action");
 	  action(arg);
 	};
-
+        
 	var API = {
 		displayWelcomeScreen: function(){
             console.log("inside displayWelcomeScreen!");
@@ -34,6 +34,14 @@ define(["app"], function(FeatherManager){
 		FeatherManager.navigate("welcome");
 		API.displayWelcomeScreen();
 	});
+        
+    FeatherManager.Routers.on("start", function(){
+        console.log("About to instantiate our FeatherAppRouter");
+        new FeatherAppRouter.Router({
+            controller: API
+        });
+    });
+	
 
    });
    

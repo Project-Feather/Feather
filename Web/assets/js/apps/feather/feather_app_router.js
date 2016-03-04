@@ -8,7 +8,8 @@ define(["app"], function(FeatherManager){
 	FeatherManager.module("Routers.FeatherApp", function(FeatherAppRouter, FeatherManager, Backbone, Marionette, $, _) {
 		FeatherAppRouter.Router = Marionette.AppRouter.extend({
 			appRoutes: {
-			 "welcome": "displayWelcomeScreen"
+			 "welcome": "displayWelcomeScreen",
+             "experience": "displayExperienceScreen"
 			}
 	});
 	 
@@ -23,16 +24,29 @@ define(["app"], function(FeatherManager){
             console.log("inside displayWelcomeScreen!");
 			require(["apps/feather/welcome/welcome_controller"], function(WelcomeController)
 			{
-                console.log("inside displayWelcomeScreen:just before executeAction");
 				executeAction(WelcomeController.display);
 			});
-		}
+		},
+        displayExperienceScreen: function(){
+            console.log("inside displayExperienceScreen!");
+			require(["apps/feather/experience/experience_controller"], function(ExperienceController)
+			{
+				executeAction(ExperienceController.display);
+			});
+        }
+        
 	};
 	
 	FeatherManager.on("welcome:display", function(){
         console.log("Inside welcome:display listener");
 		FeatherManager.navigate("welcome");
 		API.displayWelcomeScreen();
+	});
+        
+	FeatherManager.on("experience:display", function(){
+        console.log("Inside experience:display listener");
+		FeatherManager.navigate("experience");
+		API.displayExperienceScreen();
 	});
         
     FeatherManager.Routers.on("start", function(){

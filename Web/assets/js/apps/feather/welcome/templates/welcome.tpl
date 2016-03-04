@@ -21,13 +21,13 @@
   
     <div class="container">
       <div class="row row-content">
-          <div class="col-xs-12 col-sm-4">
+          <div class="col-xs-12 col-sm-3">
               <div align=center>
               <p>Be Adventurous</p>
               <a class="btn btn-large" href="#"><i class="fa fa-plane fa-5x"></i></a>
               </div>
           </div>
-          <div class="col-xs-12 col-sm-4">
+          <div class="col-xs-12 col-sm-5">
               <div align=center>
               <p>Become A Local</p>
               <a class="btn btn-large" href="#"><i class="fa fa-paper-plane fa-5x"></i></a>
@@ -51,7 +51,7 @@
           <div class="col-xs-12 col-sm-4">
               <div align=center>
                  <div class="row row-content">
-                     <div class="col-xs-12">
+                     <div class="col-xs-12" id="experience-1">
                          <a href="#"><img src="../assets/images/ActivityImage.png" height=220px width=350px/></a>
                      </div> 
                      <div class="col-xs-12">
@@ -200,8 +200,4 @@
 
     <hr>
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center"><p>The End.</p></div>
-        </div>
-    </div>
+</div>

@@ -18,7 +18,8 @@ requirejs.config({
 	"marionette.modal": "vendor/backbone.marionette.modals-min",
     text: "vendor/text",
     tpl: "vendor/underscore-tpl",
-    underscore: "vendor/underscore"
+    underscore: "vendor/underscore",
+    "star-rating": "vendor/star-rating.min"
   },
 
   shim: {
@@ -28,6 +29,10 @@ requirejs.config({
     backbone: {
       deps: ["jquery", "underscore", "json3"],
       exports: "Backbone"
+    },
+    "star-rating": {
+        deps: ["jquery"],
+        exports: "rating"
     },
 	"backbone.picky": ["backbone"],
 	"backbone.modal": ["backbone"],

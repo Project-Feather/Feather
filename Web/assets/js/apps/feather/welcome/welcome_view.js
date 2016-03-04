@@ -12,17 +12,22 @@ define(["app",
 				  template: welcomeTpl,
 
 				  ui: {
-					checkIn: "#welcome-check-in-btn",
-					checkOut: "#welcome-check-out-btn"
+                      experienceOneImg: "#experience-1"
 				  },
 
 				  events: {
-					"click @ui.checkIn": "CheckInOnClick",
-					"click @ui.checkOut": "CheckOutOnClick"
+                      "click @ui.experienceOneImg": "Experience1Click"
 				  },
                     
                   onRender: function() {
                       console.log("Welcome_View was rendered!");
+                  },
+                    
+                  Experience1Click: function(e){
+                      console.log("Experience 1 img was clicked!");
+                      e.preventDefault();
+                      e.stopPropagation();
+                      FeatherManager.trigger("experience:display");
                   }
                 
 

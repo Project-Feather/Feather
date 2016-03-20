@@ -19,7 +19,8 @@ requirejs.config({
     text: "vendor/text",
     tpl: "vendor/underscore-tpl",
     underscore: "vendor/underscore",
-    "star-rating": "vendor/star-rating.min"
+    "star-rating": "vendor/star-rating.min",
+    datepicker: "vendor/bootstrap-datepicker.min"
   },
 
   shim: {
@@ -33,6 +34,10 @@ requirejs.config({
     "star-rating": {
         deps: ["jquery"],
         exports: "rating"
+    },
+    datepicker: {
+        deps: ["jquery","bootstrap"],
+        exports: "datepicker"
     },
 	"backbone.picky": ["backbone"],
 	"backbone.modal": ["backbone"],

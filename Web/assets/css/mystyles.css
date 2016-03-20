@@ -43,6 +43,10 @@
     width: 300px;
 }
 
+.language-list{
+    list-style-type: none;
+}
+
 /*
 .activity_one_image {
     background: url('../images/ActivityImage.png') no-repeat center center;

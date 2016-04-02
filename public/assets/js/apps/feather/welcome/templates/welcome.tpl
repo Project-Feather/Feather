@@ -43,7 +43,7 @@
       
       <div class="row row-content">
           <div class="col-xs-12">
-              <h2 align=center>Explore our most popular activities</h3>
+              <h2 align=center>Explore our most popular experiences</h3>
           </div>
       </div>
       

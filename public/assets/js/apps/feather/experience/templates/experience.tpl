@@ -21,27 +21,29 @@
                     <div class="col-xs-12">
                         <a href="#">Bob Dole</a>
                     </div>
-                    <div class="col-xs-12">
-                        <input id="experience-1-star-rating" type="text" class="rating rating-loading" data-size="xs" >          
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-5">
+        <div class="col-xs-12 col-sm-7">
             <div class="row row-content">
                 <div class="col-xs-12">
                     <h2>Go on a food tour through the Lower East Side</h2>
                 </div>
                 <div class="row row-content">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-3">
                         <a class="btn btn-small" href="#"><i class="fa fa-map-marker fa-2x"></i>New York City, NY</a>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-2">
                         <a class="btn btn-small" href="#"><i class="fa fa-clock-o fa-2x"></i>4 Hours</a>                        
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-12 col-sm-2">
                         <a class="btn btn-small" href="#"><i class="fa fa-users fa-2x"></i>4 Guests</a>                        
                     </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <input id="experience-1-star-rating" type="text" class="rating rating-loading" data-size="xs" >                      
+                    </div>
+                    <div class="col-xs-12 col-sm-2">                    
+                    </div>                                           
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
@@ -135,10 +137,28 @@
                     <div class="col-xs-12 col-sm-4">
                         <a href="#"><img src="../assets/images/ActivityImage.png" height=80px width=120px/></a>                        
                     </div>                         
+                </div>
+                <div class="row row-content">
+                    <div class="col-xs-12 col-sm-4">
+                        <input id="experience-1-star-rating" type="text" class="rating rating-loading" data-size="xs" >                            
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
                 </div>                                
             </div>
         </div>
-        <div class="col-xs-12 col-sm-5">
+        <div class="col-xs-12 col-sm-3">
             <div class="row">
                 <div class="col-xs-12 col-sm-4">
                     <h4>Book a spot</h4>
@@ -150,7 +170,7 @@
                 </div>                
             </div>
             <div class="row row-content">
-                <div class="col-xs-12 col-sm-3">
+                <div class="col-xs-12">
                     <div class="dropdown">
                       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         2 Travelers
@@ -165,7 +185,8 @@
                       </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-5">
+                <br><br>
+                <div class="col-xs-12">
                     <div class="input-group date" data-provide="datepicker">
                         <input type="text" class="form-control">
                         <div class="input-group-addon">
@@ -173,7 +194,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-4">
+                <br><br>
+                <div class="col-xs-12">
 <div class="dropdown">
                       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                            12PM

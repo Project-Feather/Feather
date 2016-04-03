@@ -237,36 +237,29 @@
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <p>Feather</p>
-                    <ul style="list-style-type: none;">
-                        <li>About us</li>
-                        <li>Careers</li>
-                        <li>Press</li>
-                        <li>Blog</li>
-                        <li>Help</li>
-                        <li>Policies</li>
-                        <li>Terms &#38; Privacy</li>
-                    </ul>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Careers</a><br>
+                    <a href="#">Press</a><br>
+                    <a href="#">Blog</a><br>
+                    <a href="#">Help</a><br>
+                    <a href="#">Terms &#38; Privacy</a>
                 </div>
                 <div class="col-xs-6 col-sm-3">
                     <p>Support</p>
-                    <ul style="list-style-type: none;">
-                        <li>Trust &#38; Safety</li>
-                        <li>How it works</li>
-                        <li>Gift Cards</li>
-                        <li>Feather Picks</li>
-                        <li>Mobile Apps</li>
-                        <li>Site Map</li>
-                        <li>FAQs Travelers</li>
-                    </ul>
+                    <a href="#">Trust &#38; Safety</a><br>
+                    <a href="#">How it works</a><br>
+                    <a href="#">Gift Cards</a><br>
+                    <a href="#">Feather Picks</a><br>
+                    <a href="#">Mobile Apps</a><br>
+                    <a href="#">Site Map</a><br>
+                    <a href="#">FAQs Travelers</a>
                 </div> 
                 <div class="col-xs-6 col-sm-3">
                     <p>Hosting</p>
-                    <ul style="list-style-type: none;">
-                        <li>Why be local</li>
-                        <li>Hospitality</li>
-                        <li>List your tour or activity</li>
-                        <li>FAQs Locals</li>
-                    </ul>
+                    <a href="#">Why be local</a><br>
+                    <a href="#">Hospitality</a><br>
+                    <a href="#">List your experience</a><br>
+                    <a href="#">FAQs Locals</a>
                 </div>                     
             </div>   
             <div class="row row-footer">                                            

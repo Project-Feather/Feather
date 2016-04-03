@@ -11,9 +11,14 @@
 }
 
 .row-footer{
-    background-color: #AfAfAf;
+    background-color: #424242;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
+    color: #FFFFFF;
+}
+
+.address-font{
+    color: #FFFFFF;
 }
 
 .parallax-window {

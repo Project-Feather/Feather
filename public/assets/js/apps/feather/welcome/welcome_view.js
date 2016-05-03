@@ -12,11 +12,13 @@ define(["app",
 				  template: welcomeTpl,
 
 				  ui: {
-                      experienceOneImg: "#experience-1"
+                      experienceOneImg: "#experience-1",
+                      listAnExperienceLink: "#list-an-experience-link"
 				  },
 
 				  events: {
-                      "click @ui.experienceOneImg": "Experience1Click"
+                      "click @ui.experienceOneImg": "Experience1Click",
+                      "click @ui.listAnExperienceLink": "ListAnExperienceClick"
 				  },
                     
                   onRender: function() {
@@ -28,6 +30,13 @@ define(["app",
                       e.preventDefault();
                       e.stopPropagation();
                       FeatherManager.trigger("experience:display");
+                  },
+                    
+                  ListAnExperienceClick: function(e){
+                      console.log("List an experience link was clicked!");
+                      e.preventDefault();
+                      e.stopPropagation();
+                      FeatherManager.trigger("list_an_experience:display");
                   }
                 
 

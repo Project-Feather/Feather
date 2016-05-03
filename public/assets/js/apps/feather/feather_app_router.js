@@ -9,7 +9,8 @@ define(["app"], function(FeatherManager){
 		FeatherAppRouter.Router = Marionette.AppRouter.extend({
 			appRoutes: {
 			 "welcome": "displayWelcomeScreen",
-             "experience": "displayExperienceScreen"
+             "experience": "displayExperienceScreen",
+             "list-an-experience": "displayListAnExperienceScreen"
 			}
 	});
 	 
@@ -33,6 +34,12 @@ define(["app"], function(FeatherManager){
 			{
 				executeAction(ExperienceController.display);
 			});
+        },
+        displayListAnExperienceScreen: function(){
+            console.log("inside displayListAnExperienceScreen!");
+            require(["apps/feather/list_an_experience/list_an_experience_controller"], function(ListAnExperienceController){
+               executeAction(ListAnExperienceController.display); 
+            });
         }
         
 	};
@@ -48,6 +55,12 @@ define(["app"], function(FeatherManager){
 		FeatherManager.navigate("experience");
 		API.displayExperienceScreen();
 	});
+        
+    FeatherManager.on("list_an_experience:display", function(){
+        console.log("Inside list an experience:display listener");
+        FeatherManager.navigate("list-an-experience");
+        API.displayListAnExperienceScreen();
+    })
         
     FeatherManager.Routers.on("start", function(){
         console.log("About to instantiate our FeatherAppRouter");

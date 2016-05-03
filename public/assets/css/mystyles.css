@@ -113,3 +113,10 @@ body{
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     color:#000000;
 }
+
+/* list an experience page */
+
+.status-sidebar {
+    list-style-type: none;
+    border: 1px solid black;
+}

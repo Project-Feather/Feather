@@ -1,4 +1,4 @@
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -11,7 +11,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">List an Experience</a></li>
+                    <li><a id="list-an-experience-link">List an Experience</a></li>
                     <li><a href="aboutus.html">Experiences</a></li>
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="contactus.html">Help</a></li>

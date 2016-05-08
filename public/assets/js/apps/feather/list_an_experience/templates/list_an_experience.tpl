@@ -30,9 +30,7 @@
               </center>
           </div>
           <div class="col-xs-12 col-sm-10">
-              <center>
-                  <div id="content-region">Main content area</div>
-              </center>
+              <div id="content-region">Main content area</div>
           </div>
        </div>
     </div>

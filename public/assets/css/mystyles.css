@@ -120,3 +120,11 @@ body{
     list-style-type: none;
     border: 1px solid black;
 }
+
+.list-an-experience-sidebar-div{
+    position:absolute;
+    left:0; top:10px; bottom: 0;
+    /*width: 100px;*/
+    /*background: #4DB6AC;*/
+}
+

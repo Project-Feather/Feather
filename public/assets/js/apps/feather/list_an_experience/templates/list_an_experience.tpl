@@ -1,4 +1,4 @@
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="margin:0 !important">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,8 +22,8 @@
         </div>
     </nav>
     
-    <div class="container">
-      <div class="row row-content">
+    <!--<div class="container">-->
+      <div class="row row-content" style="padding:0 !important">
          <div class="col-xs-12 col-sm-2">
               <center>
                   <div id="sidebar-region">Sidebar goes here</div>
@@ -33,7 +33,7 @@
               <div id="content-region">Main content area</div>
           </div>
        </div>
-    </div>
+    <!--</div>-->
 
          
      

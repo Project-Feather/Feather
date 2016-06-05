@@ -1,13 +1,35 @@
 <div id="list-an-experience-sidebar">
-    <ul class="list-unstyled" style="border: 1px solid black">
-        <li id="list-an-experience-sidebar-profile-link">Your Profile</li><hr>
-        <li id="list-an-experience-sidebar-the-basics-link">The Basics</li><hr>
-        <li id="list-an-experience-sidebar-description-link">Description</li><hr>
-        <li id="list-an-experience-sidebar-photos-and-videos-link">Photos and Videos</li><hr>
-        <li id="list-an-experience-sidebar-services-link">Services</li><hr>
-        <li id="list-an-experience-sidebar-seasonal-link">Seasonal</li><hr>
-        <li id="list-an-experience-sidebar-schedule-link">Schedule</li><hr>
-        <li id="list-an-experience-sidebar-reservation-type-link">Reservation Type</li><hr>
-        <li id="list-an-experience-sidebar-pricing-link">Pricing</li><hr>
-    </ul>
+   <div class="list-an-experience-sidebar-div">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li id="list-an-experience-sidebar-profile-link" class="sidebar-brand">
+                    <a href="#">Your Profile</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-the-basics-link"  class="sidebar-brand">
+                    <a href="#">The Basics</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-description-link"  class="sidebar-brand">
+                    <a href="#">Description</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-photos-and-videos-link"  class="sidebar-brand">
+                    <a href="#">Photos and Videos</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-services-link"  class="sidebar-brand">
+                    <a href="#">Services</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-seasonal-link"  class="sidebar-brand">
+                    <a href="#">Seasonal</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-schedule-link"  class="sidebar-brand">
+                    <a href="#">Schedule</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-reservation-type-link"  class="sidebar-brand">
+                    <a href="#">Reservation Type</a>
+                </li><hr>
+                <li id="list-an-experience-sidebar-pricing-link"  class="sidebar-brand">
+                    <a href="#">Pricing</a>
+                </li><hr>
+            </ul>
+        </div>
+    </div>
 </div>

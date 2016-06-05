@@ -89,7 +89,6 @@
                          <textarea class="form-control" id="list-an-experience-profile-unique-and-different-textarea" rows="4" placeholder="What makes your activity or tour special?"></textarea>
                      </div>
                  </div>
-                 <button type="button" class="btn btn-primary">Preview Experience</button>
                  <button type="button" class="btn btn-primary">Next</button>
              </form>
          </div>

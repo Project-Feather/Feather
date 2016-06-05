@@ -80,9 +80,17 @@
                  <div class="form-group">
                      <div class="col-xs-12">
                          <label for="list-an-experience-profile-describe-yourself-textarea">Describe yourself</label>
-                         
+                         <textarea class="form-control" id="list-an-experience-profile-describe-yourself-textarea" rows="4" placeholder="Say some stuff about yourself"></textarea>
                      </div>
                  </div>
+                 <div class="form-group">
+                     <div class="col-xs-12">
+                         <label for="list-an-experience-profile-unique-and-different-textarea">Why are your experiences unique and different? (optional)</label>
+                         <textarea class="form-control" id="list-an-experience-profile-unique-and-different-textarea" rows="4" placeholder="What makes your activity or tour special?"></textarea>
+                     </div>
+                 </div>
+                 <button type="button" class="btn btn-primary">Preview Experience</button>
+                 <button type="button" class="btn btn-primary">Next</button>
              </form>
          </div>
      </div>

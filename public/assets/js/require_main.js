@@ -20,7 +20,8 @@ requirejs.config({
     tpl: "vendor/underscore-tpl",
     underscore: "vendor/underscore",
     "star-rating": "vendor/star-rating.min",
-    datepicker: "vendor/bootstrap-datepicker.min"
+    datepicker: "vendor/bootstrap-datepicker.min",
+    "bootstrap-slider": "vendor/bootstrap-slider.min"
   },
 
   shim: {
@@ -38,6 +39,10 @@ requirejs.config({
     datepicker: {
         deps: ["jquery","bootstrap"],
         exports: "datepicker"
+    },
+    "bootstrap-slider": {
+        deps: ["jquery","bootstrap"],
+        exports: "bootstrap-slider"
     },
 	"backbone.picky": ["backbone"],
 	"backbone.modal": ["backbone"],

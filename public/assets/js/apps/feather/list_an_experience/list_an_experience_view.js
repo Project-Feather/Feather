@@ -6,7 +6,8 @@ define(["app",
         "tpl!apps/feather/list_an_experience/templates/list_an_experience.tpl",
         "tpl!apps/feather/list_an_experience/templates/list_an_experience_sidebar.tpl",
         "tpl!apps/feather/list_an_experience/templates/list_an_experience_profile.tpl",
-        "tpl!apps/feather/list_an_experience/templates/list_an_experience_basics.tpl",        "bootstrap"],
+        "tpl!apps/feather/list_an_experience/templates/list_an_experience_basics.tpl",        "bootstrap",
+        "bootstrap-slider"],
 		function(FeatherManager, listAnExperienceTpl, listAnExperienceSidebarTpl, listAnExperienceProfileTpl, listAnExperienceBasicsTpl ){
 			FeatherManager.module("FeatherApp.ListAnExperience.View", function(View, FeatherManager, Backbone, Marionette, $, _){
 				View.Page = Marionette.LayoutView.extend({
@@ -40,7 +41,18 @@ define(["app",
                 })
                 
                 View.BasicsPage = Marionette.ItemView.extend({
-                    template: listAnExperienceBasicsTpl
+                    template: listAnExperienceBasicsTpl,
+                   
+                    ui: {
+                        accomodationSlider: "#ex2"
+                    },
+                    
+                    onAttach: function(){
+                        this.ui.accomodationSlider.slider({});
+                    }
+                    
+                    
+                    //$("#ex2").slider({});
                 })
                 
                 View.StatusSidebar = Marionette.ItemView.extend({

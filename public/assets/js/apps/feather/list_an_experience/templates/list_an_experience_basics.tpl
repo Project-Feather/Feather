@@ -40,9 +40,9 @@
              </div>
          </div>
          <br>
-         <div>
-             <label for="list-an-experience-basics-length-of-experience-dropdown">Length of Experience</label>
-                         <select class="form-control" id="list-an-experience-basics-length-of-experience-dropdown">
+         <div class="col-xs-12">
+             <h3>Length of Experience</h3>
+                         <select class="form-control" id="list-an-experience-basics-length-of-experience-dropdown" style="width:200px;">
                                 <option>1 Hour</option>
                                 <option>1.5 Hours</option>
                                 <option>2 Hours</option>
@@ -106,6 +106,14 @@
                                 <option>30 Days</option>                                                                                                                   
                          </select>
                 
+         </div>
+         <div class="col-xs-12">
+             <h3>Travelers Accomodated</h3>
+             <div>
+                 <b>€ 10</b> 
+                 <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> 
+                 <b>€ 1000</b>
+             </div>
          </div>
     </div>
 </div>

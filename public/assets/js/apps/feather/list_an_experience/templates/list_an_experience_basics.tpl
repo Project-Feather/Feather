@@ -2,15 +2,11 @@
     <div class="row">
          <div class="col-xs-12">
              <h3>Tell us the basics</h3>
-         </div>
-         <div class="col-xs-12">
              <p>Give some basic details about your experience!</p>
          </div>
          <hr>
          <div class="col-xs-12">
              <h3>Experience Type</h3>
-         </div>
-         <div class="col-xs-12">
              <p>Select up to three experience types!</p>
          </div>
          <div class="col-xs-12">
@@ -108,12 +104,25 @@
                 
          </div>
          <div class="col-xs-12">
-             <h3>Travelers Accomodated</h3>
-             <div>
-                 <b>€ 10</b> 
-                 <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> 
-                 <b>€ 1000</b>
-             </div>
+             <h3>Travelers Accomodated</h3>         
+             <p>
+               <label for="amount">Range:</label>
+               <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+             </p>
+             <div id="slider-range" style="width:300px;"></div>          
          </div>
+         <div class="col-xs-12">
+             <h3>City</h3>         
+             <div class="ui-widget">
+              <label for="tags"></label>
+              <input id="tags" class="form-control" style="width:300px;">
+            </div>         
+         </div>
+         <br>
+         <div class="col-xs-12" style="margin-top:20px;">
+             <button type="button" class="btn btn-primary">Previous</button>
+             <button type="button" class="btn btn-primary">Preview Experience</button>
+             <button type="button" class="btn btn-primary">Continue</button>
+        </div>
     </div>
 </div>

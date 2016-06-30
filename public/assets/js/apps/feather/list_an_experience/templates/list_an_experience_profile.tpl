@@ -2,8 +2,6 @@
      <div class="row">
          <div class="col-xs-12">
              <h3>Tell Explorers about yourself</h3>
-         </div>
-         <div class="col-xs-12">
              <p>Tell Explorers what makes you different from everyone else</p>
          </div>
          <hr>
